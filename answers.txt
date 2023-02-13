@@ -17,3 +17,7 @@ git rebase is a more advanced method of integrating changes from one branch into
 - Can cause conflicts if the target branch has changed since the source branch was created.
 - modifies the branch's existing history
 - difficult to revert changes
+
+Question: What is a remote repository?
+
+A version of your Git repository that on GitHub. Serves as a central location for your code that can be accessed and collaborated on by multiple people.
