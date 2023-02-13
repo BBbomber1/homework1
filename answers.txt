@@ -1,0 +1,19 @@
+Question: What is the difference between a merge and a rebase?
+
+Answer:
+git merge is a straightforward method of implementing changes from one branch into another. 
+
+- Creates a new merge commit in the target branch and brings changes from the source branch. 
+- Preserves the branch history and track when changes were made in the source branch implemented in the target branch. 
+- Can lead to a cluttered commit history with multiple merge commits, especially if multiple branches are frequently merged into the same branch.
+
+
+
+git rebase is a more advanced method of integrating changes from one branch into another.
+
+- git rebase takes the changes from the source branch and reapplies them on top of the target branch. 
+- linear branch history 
+- easier to follow the flow of changes
+- Can cause conflicts if the target branch has changed since the source branch was created.
+- modifies the branch's existing history
+- difficult to revert changes
